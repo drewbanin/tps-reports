@@ -1,0 +1,15 @@
+
+
+name: tps_reporting
+version: 1.0
+
+profile: fishtown_analytics
+
+source-paths: ["models"]
+target-path: "target"
+
+models:
+  tps_reporting:
+    github:
+      base:
+        materialized: ephemeral
