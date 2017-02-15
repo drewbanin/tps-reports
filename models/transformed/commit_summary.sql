@@ -1,4 +1,9 @@
 
+{{
+  config(materialized='table')
+}}
+
+
 with commit_log as (
 
     select * from {{ ref('commit_log') }}
